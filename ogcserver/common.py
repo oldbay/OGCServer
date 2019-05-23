@@ -295,8 +295,8 @@ def copy_layer(obj):
     if hasattr(obj, 'toleranceunits'):
         lyr.toleranceunits = obj.toleranceunits
     lyr.srs = obj.srs
-    lyr.minzoom = obj.minzoom
-    lyr.maxzoom = obj.maxzoom
+    lyr.minzoom = obj.minimum_scale_denominator
+    lyr.maxzoom = obj.maximum_scale_denominator
     lyr.active = obj.active
     lyr.queryable = obj.queryable    
     lyr.clear_label_cache = obj.clear_label_cache

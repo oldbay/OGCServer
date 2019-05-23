@@ -1,0 +1,25 @@
+Source: ogcserver
+Section: python
+Priority: optional
+Maintainer: Baev Aleksandr <old_bay@mail.ru>
+Build-Depends: debhelper,
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-mapnik,
+               python-pil,
+               python-pastescript,
+               python-webob
+Standards-Version: 3.9.5.0
+Homepage: https://github.com/mapnik/OGCServer
+X-Python-Version: 2.7
+
+Package: python-ogcserver
+Architecture: all
+Section: python
+Depends: ${misc:Depends},
+            python-mapnik,
+            python-pil,
+            python-pastescript,
+            python-webob
+Description: Python WMS implementation using Mapnik.
