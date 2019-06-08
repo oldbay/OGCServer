@@ -242,7 +242,7 @@ class ServiceHandler(WMSBaseServiceHandler):
 
 class ExceptionHandler(BaseExceptionHandler):
 
-    xmlmimetype = "application/vnd.ogc.se_xml"
+    xmlmimetype = "text/xml"
 
     xmltemplate = ElementTree.fromstring("""<?xml version='1.0' encoding="UTF-8" standalone="no"?>
     <!DOCTYPE ServiceExceptionReport SYSTEM "http://www.digitalearth.gov/wmt/xml/exception_1_1_1.dtd">
