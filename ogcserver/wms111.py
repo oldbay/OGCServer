@@ -137,7 +137,7 @@ class ServiceHandler(WMSBaseServiceHandler):
             if self.conf.has_option('map', 'wms_name'):
                 rootlayername.text = to_unicode(self.conf.get('map', 'wms_name'))
             else:
-                rootlayername.text = '__all__'
+                rootlayername.text = self.conf.get('map', 'wms_all')
             rootlayerelem.append(rootlayername)
 
             rootlayertitle = ElementTree.Element('Title')

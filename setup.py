@@ -8,7 +8,7 @@ except ImportError:
     HAS_SETUPTOOLS = False
 
 options = dict(name='ogcserver',
-    version='0.1.3',
+    version='0.1.4',
     description="A OGC WMS for Mapnik",
     #long_description="TODO",
     author='Jean-Francois Doyon',

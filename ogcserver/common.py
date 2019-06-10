@@ -330,7 +330,7 @@ class WMSBaseServiceHandler(BaseServiceHandler):
             writer = TextFeatureInfo()
         elif params['info_format'] == 'text/xml':
             writer = XMLFeatureInfo()
-        if params['query_layers'] and params['query_layers'][0] == '__all__':
+        if params['query_layers'] and params['query_layers'][0] == self.conf.get('map', 'wms_all'):
             for layerindex, layer in enumerate(m.layers):
                 featureset = getattr(m, querymethodname)(layerindex, params['i'], params['j'])
                 features = featureset.features
@@ -431,7 +431,7 @@ class WMSBaseServiceHandler(BaseServiceHandler):
                     m.layers.append(layer)        
         # a non WMS spec way of requesting all layers
         # uses orderedlayers that preserves original ordering in XML mapfile
-        elif params['layers'] and params['layers'][0] == '__all__':
+        elif params['layers'] and params['layers'][0] == self.conf.get('map', 'wms_all'):
             for layer_obj in self.mapfactory.ordered_layers:
                 # if we don't copy the layer here we get
                 # duplicate layers added to the map because the
