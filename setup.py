@@ -8,13 +8,13 @@ except ImportError:
     HAS_SETUPTOOLS = False
 
 options = dict(name='ogcserver',
-    version='0.1.4',
+    version='0.1.5',
     description="A OGC WMS for Mapnik",
     #long_description="TODO",
     author='Jean-Francois Doyon',
     maintainer='Dane Springmeyer',
     maintainer_email='dane@dbsgeo.com',
-    requires=['mapnik (>=3.0.0)'],
+    requires=['mapnik (>=0.7.0)'],
     provides=['ogcserver'],
     keywords='mapnik,wms,gis,geospatial',
     url='https://github.com/mapnik/OGCServer',
