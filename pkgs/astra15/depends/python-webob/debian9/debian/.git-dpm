@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+9412dffb672f34a1e8ca63e9cbe187309c58d6f8
+9412dffb672f34a1e8ca63e9cbe187309c58d6f8
+ca1cbb0344ec617543a07386ff7e72aba3923300
+ca1cbb0344ec617543a07386ff7e72aba3923300
+python-webob_1.6.2.orig.tar.gz
+4e59f44f5e295f0302281008afe95841c641de22
+205228
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

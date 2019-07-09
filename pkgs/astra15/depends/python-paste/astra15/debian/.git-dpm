@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+1877d962479ad777cab5305b5813e8b186015758
+1877d962479ad777cab5305b5813e8b186015758
+1c821a6f4b8f2e176228a8c4b055f98d94a56e70
+1c821a6f4b8f2e176228a8c4b055f98d94a56e70
+paste_2.0.3+dfsg.orig.tar.gz
+63c4d0e4cd1b780da53a6a234d2df608fc6c6279
+594469
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

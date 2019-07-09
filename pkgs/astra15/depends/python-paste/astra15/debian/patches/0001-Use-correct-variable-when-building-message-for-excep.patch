@@ -1,0 +1,25 @@
+From fed2232ccb8d655a9c7dc8a9dcde80b66a5421bd Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Ond=C5=99ej=20Nov=C3=BD?= <novy@ondrej.org>
+Date: Thu, 10 Mar 2016 19:22:33 +0100
+Subject: Use correct variable when building message for exception
+
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Origin: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=695253
+Forwarded: https://bitbucket.org/ianb/paste/pull-requests/36/use-correct-variable-when-building-message/diff
+---
+ paste/fixture.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/paste/fixture.py b/paste/fixture.py
+index 363f119..8cff72f 100644
+--- a/paste/fixture.py
++++ b/paste/fixture.py
+@@ -852,7 +852,7 @@ class TestResponse(object):
+                 print("Actual response (has %r)" % no_s, file=sys.stderr)
+                 print(self, file=sys.stderr)
+                 raise IndexError(
+-                    "Body contains string %r" % s)
++                    "Body contains string %r" % no_s)
+ 
+     def __repr__(self):
+         body = self.body

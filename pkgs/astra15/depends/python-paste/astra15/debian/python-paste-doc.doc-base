@@ -1,0 +1,10 @@
+Document: python-paste-doc
+Title: Python Paste documentation
+Author: Ian Bicking
+Abstract: Python Paste brings consistency to Python web development and web application
+ installation, providing tools for both developers and system administrators.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-paste-doc/html/index.html
+Files: /usr/share/doc/python-paste-doc/html/*

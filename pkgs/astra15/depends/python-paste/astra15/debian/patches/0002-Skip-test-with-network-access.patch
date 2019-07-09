@@ -1,0 +1,30 @@
+From 1877d962479ad777cab5305b5813e8b186015758 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Ond=C5=99ej=20Nov=C3=BD?= <novy@ondrej.org>
+Date: Thu, 10 Mar 2016 21:38:21 +0100
+Subject: Skip test with network access
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Author: Ondřej Nový <novy@ondrej.org>
+Forwarded: no
+---
+ tests/test_proxy.py | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/tests/test_proxy.py b/tests/test_proxy.py
+index 44db9f3..7486824 100644
+--- a/tests/test_proxy.py
++++ b/tests/test_proxy.py
+@@ -1,7 +1,11 @@
+ from paste import proxy
+ from paste.fixture import TestApp
+ 
++from nose.plugins.skip import Skip, SkipTest
++
+ def test_paste_website():
++    raise SkipTest # Prevent Debian FTBS, because this tests need network
++
+     # Not the most robust test...
+     # need to test things like POSTing to pages, and getting from pages
+     # that don't set content-length.

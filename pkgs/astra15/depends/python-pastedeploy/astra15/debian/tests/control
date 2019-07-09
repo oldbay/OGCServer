@@ -1,0 +1,5 @@
+Depends: python-pastedeploy
+Test-Command: cd "$ADTTMP" ; python -c "import paste.deploy ; print paste.deploy"
+
+Depends: python3-pastedeploy
+Test-Command: cd "$ADTTMP" ; python3 -c "import paste.deploy ; print(paste.deploy)"

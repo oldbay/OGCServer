@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+export PYBUILD_NAME=pastedeploy
+#export PYBUILD_TEST_NOSE=1
+export PYBUILD_AFTER_INSTALL=rm -rf {destdir}{install_dir}/paste/deploy/paster_templates;\
+       			     rm {destdir}{install_dir}/*.pth;\
+			     rm {destdir}{install_dir}/*/namespace_packages.txt
+
+DOCS=$(shell cd docs &&\
+     find ./ -maxdepth 1 -name "*.txt" -not -name "license.txt" -printf "%p " |\
+     sed "s/.txt//g")
+
+%:
+	dh $@ --buildsystem=pybuild --with=python2
+
+override_dh_installchangelogs:
+	dh_installchangelogs $(CURDIR)/docs/news.txt

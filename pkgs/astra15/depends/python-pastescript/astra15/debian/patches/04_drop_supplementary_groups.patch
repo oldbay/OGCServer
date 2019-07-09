@@ -1,0 +1,23 @@
+# HG changeset patch
+# User Clay Gerrard <clay.gerrard@gmail.com>
+# Date 1328679050 21600
+# Branch setgroups
+# Node ID a19e462769b4a5c675e25bb4dedbc0937deec8da
+# Parent  edb9ca5fdc1d47953896d131907eff810202089b
+fix group permissions for paste.script.serve
+
+diff -r edb9ca5fdc1d47953896d131907eff810202089b -r a19e462769b4a5c675e25bb4dedbc0937deec8da paste/script/serve.py
+--- a/paste/script/serve.py	Mon Nov 07 10:11:44 2011 -0600
++++ b/paste/script/serve.py	Tue Feb 07 23:30:50 2012 -0600
+@@ -497,6 +497,11 @@
+         if self.verbose > 0:
+             print 'Changing user to %s:%s (%s:%s)' % (
+                 user, group or '(unknown)', uid, gid)
++        if hasattr(os, 'initgroups'):
++            os.initgroups(user, gid)
++        else:
++            os.setgroups([e.gr_gid for e in grp.getgrall()
++                          if user in e.gr_mem] + [gid]) 
+         if gid:
+             os.setgid(gid)
+         if uid:

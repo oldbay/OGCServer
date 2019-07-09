@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+export PYBUILD_NAME = paste
+export PYBUILD_AFTER_INSTALL=rm {destdir}{install_dir}/*.pth ; \
+		rm {destdir}{install_dir}/*/namespace_packages.txt ; \
+		rm {destdir}{install_dir}/profile.log.tmp ; \
+		rm {destdir}{install_dir}/paste/util/template.py.2015-04-30-123224 ; \
+		touch {destdir}{install_dir}/paste/__init__.py
+export PYBUILD_BEFORE_TEST=cp -r Paste.egg-info {build_dir}
+export PYBUILD_AFTER_TEST=rm -r {build_dir}/Paste.egg-info
+
+%:
+	dh $@ --with python2,sphinxdoc --buildsystem=pybuild
+
+ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
+override_dh_sphinxdoc:
+	PYTHONPATH=. sphinx-build -bhtml docs/ $(CURDIR)/debian/python-paste-doc/usr/share/doc/python-paste-doc/html
+
+	dh_sphinxdoc -O--buildsystem=pybuild
+endif
+
+override_dh_installchangelogs:
+	dh_installchangelogs -i docs/news.txt
+
+override_dh_auto_test:
+

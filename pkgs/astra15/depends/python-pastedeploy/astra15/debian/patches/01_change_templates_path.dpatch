@@ -1,0 +1,23 @@
+From 0b19d6779969b2d535d7b85182d8102c3e6c577a Mon Sep 17 00:00:00 2001
+From: SVN-Git Migration <python-modules-team@lists.alioth.debian.org>
+Date: Thu, 8 Oct 2015 10:08:41 -0700
+Subject: 01_change_templates_path.dpatch
+
+Patch-Name: 01_change_templates_path.dpatch
+---
+ paste/deploy/paster_templates.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/paste/deploy/paster_templates.py b/paste/deploy/paster_templates.py
+index 9c5f942..b441571 100644
+--- a/paste/deploy/paster_templates.py
++++ b/paste/deploy/paster_templates.py
+@@ -9,7 +9,7 @@ from paste.deploy.compat import print_
+ 
+ class PasteDeploy(Template):
+ 
+-    _template_dir = 'paster_templates/paste_deploy'
++    _template_dir = '/usr/share/paster_templates/paste_deploy'
+     summary = "A web application deployed through paste.deploy"
+ 
+     egg_plugins = ['PasteDeploy']

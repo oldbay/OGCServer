@@ -1,0 +1,955 @@
+W: /root/.pbuilderrc does not exist
+I: Building the build Environment
+I: extracting base tarball [/var/cache/pbuilder/base.astra15.tgz]
+I: copying local configuration
+W: No local /etc/hostname to copy, relying on /var/cache/pbuilder/build/18008/etc/hostname to be correct
+W: No local /etc/mailname to copy, relying on /var/cache/pbuilder/build/18008/etc/mailname to be correct
+I: mounting /proc filesystem
+I: mounting /run/shm filesystem
+I: mounting /dev/pts filesystem
+I: Mounting /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15
+I: Mounting /var/cache/pbuilder/tmprepo/
+I: policy-rc.d already exists
+I: user script /var/cache/pbuilder/build/18008/tmp/hooks/H10PreStart starting
+sed: -e expression #1, char 37: expected newer version of sed
+Hit ftp://repo smolensk InRelease
+Get:1 ftp://repo astra15 InRelease
+Ign ftp://repo astra15 InRelease
+Get:2 ftp://repo astra15_dutils InRelease
+Ign ftp://repo astra15_dutils InRelease
+Get:3 ftp://repo astra15_gst10 InRelease
+Ign ftp://repo astra15_gst10 InRelease
+Get:4 ftp://repo astra15_deb7 InRelease
+Ign ftp://repo astra15_deb7 InRelease
+Get:5 ftp://repo astra15_qgis InRelease
+Ign ftp://repo astra15_qgis InRelease
+Get:6 ftp://repo astra15_bin InRelease
+Ign ftp://repo astra15_bin InRelease
+Get:7 ftp://repo smolensk InRelease
+Ign ftp://repo smolensk InRelease
+Hit ftp://repo smolensk/contrib amd64 Packages
+Hit ftp://repo smolensk/main amd64 Packages
+Hit ftp://repo smolensk/non-free amd64 Packages
+Get:8 ftp://repo astra15 Release.gpg
+Ign ftp://repo astra15 Release.gpg
+Get:9 ftp://repo astra15_dutils Release.gpg
+Ign ftp://repo astra15_dutils Release.gpg
+Get:10 ftp://repo astra15_gst10 Release.gpg
+Ign ftp://repo astra15_gst10 Release.gpg
+Get:11 ftp://repo astra15_deb7 Release.gpg
+Ign ftp://repo astra15_deb7 Release.gpg
+Get:12 ftp://repo astra15_qgis Release.gpg
+Ign ftp://repo astra15_qgis Release.gpg
+Get:13 ftp://repo astra15_bin Release.gpg
+Ign ftp://repo astra15_bin Release.gpg
+Hit ftp://repo smolensk Release.gpg
+Get:14 ftp://repo astra15 Release [8136 B]
+Hit ftp://repo astra15_dutils Release
+Get:15 ftp://repo astra15_gst10 Release [8049 B]
+Hit ftp://repo astra15_deb7 Release
+Hit ftp://repo astra15_qgis Release
+Get:16 ftp://repo astra15_bin Release [13.2 kB]
+Hit ftp://repo smolensk Release
+Get:17 ftp://repo astra15/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15/main amd64 Packages/DiffIndex
+Get:18 ftp://repo astra15/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15/contrib amd64 Packages/DiffIndex
+Get:19 ftp://repo astra15/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15/non-free amd64 Packages/DiffIndex
+Get:20 ftp://repo astra15/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15/vega amd64 Packages/DiffIndex
+Get:21 ftp://repo astra15_dutils/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15_dutils/main amd64 Packages/DiffIndex
+Get:22 ftp://repo astra15_dutils/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15_dutils/contrib amd64 Packages/DiffIndex
+Get:23 ftp://repo astra15_dutils/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15_dutils/non-free amd64 Packages/DiffIndex
+Get:24 ftp://repo astra15_dutils/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15_dutils/vega amd64 Packages/DiffIndex
+Get:25 ftp://repo astra15_gst10/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15_gst10/main amd64 Packages/DiffIndex
+Get:26 ftp://repo astra15_gst10/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15_gst10/contrib amd64 Packages/DiffIndex
+Get:27 ftp://repo astra15_gst10/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15_gst10/non-free amd64 Packages/DiffIndex
+Get:28 ftp://repo astra15_gst10/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15_gst10/vega amd64 Packages/DiffIndex
+Get:29 ftp://repo astra15_deb7/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15_deb7/main amd64 Packages/DiffIndex
+Get:30 ftp://repo astra15_deb7/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15_deb7/contrib amd64 Packages/DiffIndex
+Get:31 ftp://repo astra15_deb7/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15_deb7/non-free amd64 Packages/DiffIndex
+Get:32 ftp://repo astra15_deb7/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15_deb7/vega amd64 Packages/DiffIndex
+Get:33 ftp://repo astra15_qgis/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15_qgis/main amd64 Packages/DiffIndex
+Get:34 ftp://repo astra15_qgis/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15_qgis/contrib amd64 Packages/DiffIndex
+Get:35 ftp://repo astra15_qgis/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15_qgis/non-free amd64 Packages/DiffIndex
+Get:36 ftp://repo astra15_qgis/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15_qgis/vega amd64 Packages/DiffIndex
+Get:37 ftp://repo astra15_bin/main amd64 Packages/DiffIndex
+Ign ftp://repo astra15_bin/main amd64 Packages/DiffIndex
+Get:38 ftp://repo astra15_bin/contrib amd64 Packages/DiffIndex
+Ign ftp://repo astra15_bin/contrib amd64 Packages/DiffIndex
+Get:39 ftp://repo astra15_bin/non-free amd64 Packages/DiffIndex
+Ign ftp://repo astra15_bin/non-free amd64 Packages/DiffIndex
+Get:40 ftp://repo astra15_bin/vega amd64 Packages/DiffIndex
+Ign ftp://repo astra15_bin/vega amd64 Packages/DiffIndex
+Hit ftp://repo smolensk/main amd64 Packages
+Hit ftp://repo smolensk/contrib amd64 Packages
+Hit ftp://repo smolensk/non-free amd64 Packages
+Get:41 ftp://repo astra15/main amd64 Packages
+Get:42 ftp://repo astra15/contrib amd64 Packages
+Get:43 ftp://repo astra15/non-free amd64 Packages
+Get:44 ftp://repo astra15/vega amd64 Packages
+Get:45 ftp://repo astra15_dutils/main amd64 Packages
+Get:46 ftp://repo astra15_dutils/contrib amd64 Packages
+Get:47 ftp://repo astra15_dutils/non-free amd64 Packages
+Get:48 ftp://repo astra15_dutils/vega amd64 Packages
+Get:49 ftp://repo astra15_gst10/main amd64 Packages
+Get:50 ftp://repo astra15_gst10/contrib amd64 Packages
+Get:51 ftp://repo astra15_gst10/non-free amd64 Packages
+Get:52 ftp://repo astra15_gst10/vega amd64 Packages
+Get:53 ftp://repo astra15_deb7/main amd64 Packages
+Get:54 ftp://repo astra15_deb7/contrib amd64 Packages
+Get:55 ftp://repo astra15_deb7/non-free amd64 Packages
+Get:56 ftp://repo astra15_deb7/vega amd64 Packages
+Get:57 ftp://repo astra15_qgis/main amd64 Packages
+Get:58 ftp://repo astra15_qgis/contrib amd64 Packages
+Get:59 ftp://repo astra15_qgis/non-free amd64 Packages
+Get:60 ftp://repo astra15_qgis/vega amd64 Packages
+Get:61 ftp://repo astra15_bin/main amd64 Packages
+Get:62 ftp://repo astra15_bin/contrib amd64 Packages
+Get:63 ftp://repo astra15_bin/non-free amd64 Packages
+Get:64 ftp://repo astra15_bin/vega amd64 Packages
+Get:65 ftp://repo astra15/main amd64 Packages
+Get:66 ftp://repo astra15/contrib amd64 Packages
+Get:67 ftp://repo astra15/non-free amd64 Packages
+Get:68 ftp://repo astra15/vega amd64 Packages
+Get:69 ftp://repo astra15_dutils/main amd64 Packages
+Get:70 ftp://repo astra15_dutils/contrib amd64 Packages
+Get:71 ftp://repo astra15_dutils/non-free amd64 Packages
+Get:72 ftp://repo astra15_dutils/vega amd64 Packages
+Get:73 ftp://repo astra15_gst10/main amd64 Packages
+Get:74 ftp://repo astra15_gst10/contrib amd64 Packages
+Get:75 ftp://repo astra15_gst10/non-free amd64 Packages
+Get:76 ftp://repo astra15_gst10/vega amd64 Packages
+Get:77 ftp://repo astra15_deb7/main amd64 Packages
+Get:78 ftp://repo astra15_deb7/contrib amd64 Packages
+Get:79 ftp://repo astra15_deb7/non-free amd64 Packages
+Get:80 ftp://repo astra15_deb7/vega amd64 Packages
+Get:81 ftp://repo astra15_qgis/main amd64 Packages
+Get:82 ftp://repo astra15_qgis/contrib amd64 Packages
+Get:83 ftp://repo astra15_qgis/non-free amd64 Packages
+Get:84 ftp://repo astra15_qgis/vega amd64 Packages
+Get:85 ftp://repo astra15_bin/main amd64 Packages
+Get:86 ftp://repo astra15_bin/contrib amd64 Packages
+Get:87 ftp://repo astra15_bin/non-free amd64 Packages
+Get:88 ftp://repo astra15_bin/vega amd64 Packages
+Get:89 ftp://repo astra15/main amd64 Packages
+Get:90 ftp://repo astra15/contrib amd64 Packages
+Get:91 ftp://repo astra15/non-free amd64 Packages
+Get:92 ftp://repo astra15/vega amd64 Packages
+Get:93 ftp://repo astra15_dutils/main amd64 Packages
+Get:94 ftp://repo astra15_dutils/contrib amd64 Packages
+Get:95 ftp://repo astra15_dutils/non-free amd64 Packages
+Get:96 ftp://repo astra15_dutils/vega amd64 Packages
+Get:97 ftp://repo astra15_gst10/main amd64 Packages
+Get:98 ftp://repo astra15_gst10/contrib amd64 Packages
+Get:99 ftp://repo astra15_gst10/non-free amd64 Packages
+Get:100 ftp://repo astra15_gst10/vega amd64 Packages
+Get:101 ftp://repo astra15_deb7/main amd64 Packages
+Get:102 ftp://repo astra15_deb7/contrib amd64 Packages
+Get:103 ftp://repo astra15_deb7/non-free amd64 Packages
+Get:104 ftp://repo astra15_deb7/vega amd64 Packages
+Get:105 ftp://repo astra15_qgis/main amd64 Packages
+Get:106 ftp://repo astra15_qgis/contrib amd64 Packages
+Get:107 ftp://repo astra15_qgis/non-free amd64 Packages
+Get:108 ftp://repo astra15_qgis/vega amd64 Packages
+Get:109 ftp://repo astra15_bin/main amd64 Packages
+Get:110 ftp://repo astra15_bin/contrib amd64 Packages
+Get:111 ftp://repo astra15_bin/non-free amd64 Packages
+Get:112 ftp://repo astra15_bin/vega amd64 Packages
+Get:113 ftp://repo astra15/main amd64 Packages [113 kB]
+Hit ftp://repo astra15/contrib amd64 Packages
+Get:114 ftp://repo astra15/non-free amd64 Packages [7421 B]
+Get:115 ftp://repo astra15/vega amd64 Packages [17.1 kB]
+Hit ftp://repo astra15_dutils/main amd64 Packages
+Hit ftp://repo astra15_dutils/contrib amd64 Packages
+Hit ftp://repo astra15_dutils/non-free amd64 Packages
+Hit ftp://repo astra15_dutils/vega amd64 Packages
+Get:116 ftp://repo astra15_gst10/main amd64 Packages [30.6 kB]
+Hit ftp://repo astra15_gst10/contrib amd64 Packages
+Hit ftp://repo astra15_gst10/non-free amd64 Packages
+Hit ftp://repo astra15_gst10/vega amd64 Packages
+Hit ftp://repo astra15_deb7/main amd64 Packages
+Hit ftp://repo astra15_deb7/contrib amd64 Packages
+Hit ftp://repo astra15_deb7/non-free amd64 Packages
+Hit ftp://repo astra15_deb7/vega amd64 Packages
+Hit ftp://repo astra15_qgis/main amd64 Packages
+Hit ftp://repo astra15_qgis/contrib amd64 Packages
+Hit ftp://repo astra15_qgis/non-free amd64 Packages
+Hit ftp://repo astra15_qgis/vega amd64 Packages
+Get:117 ftp://repo astra15_bin/main amd64 Packages [3414 B]
+Hit ftp://repo astra15_bin/contrib amd64 Packages
+Hit ftp://repo astra15_bin/non-free amd64 Packages
+Get:118 ftp://repo astra15_bin/vega amd64 Packages [557 B]
+Fetched 201 kB in 0s (512 kB/s)
+Reading package lists...
+Start Console mode
+SVN REPOSIRORY NOT FOUND
+rm: cannot remove `../paste_2.0.3+dfsg.orig.tar.xz': No such file or directory
+rm: cannot remove `../paste_2.0.3+dfsg.orig.tar.gz': No such file or directory
+rm: cannot remove `../paste_2.0.3+dfsg.orig.tar.bz2': No such file or directory
+I: user script /var/cache/pbuilder/build/18008/tmp/hooks/H10PreStart finished
+I: Obtaining the cached apt archive contents
+W: no hooks of type F found -- ignoring
+Reading package lists...
+Building dependency tree...
+Reading state information...
+pbuilder is already the newest version.
+passwd is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+I: Setting DEBBUILDOPTS=
+I: Setting DEBBUILDOPTS=
+ -> Attempting to satisfy build-dependencies
+ -> Creating pbuilder-satisfydepends-dummy package
+Package: pbuilder-satisfydepends-dummy
+Version: 0.invalid.0
+Architecture: amd64
+Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+ This package was created automatically by pbuilder to satisfy the
+ build-dependencies of the package being currently built.
+Depends: debhelper (>= 9), dh-python, python-all, python-nose, python-setuptools, python-six, python-sphinx
+dpkg-deb: building package `pbuilder-satisfydepends-dummy' in `/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+Selecting previously unselected package pbuilder-satisfydepends-dummy.
+(Reading database ... 16478 files and directories currently installed.)
+Unpacking pbuilder-satisfydepends-dummy (from .../pbuilder-satisfydepends-dummy.deb) ...
+dpkg: pbuilder-satisfydepends-dummy: dependency problems, but configuring anyway as you requested:
+ pbuilder-satisfydepends-dummy depends on dh-python; however:
+  Package dh-python is not installed.
+ pbuilder-satisfydepends-dummy depends on python-all; however:
+  Package python-all is not installed.
+ pbuilder-satisfydepends-dummy depends on python-nose; however:
+  Package python-nose is not installed.
+ pbuilder-satisfydepends-dummy depends on python-setuptools; however:
+  Package python-setuptools is not installed.
+ pbuilder-satisfydepends-dummy depends on python-six; however:
+  Package python-six is not installed.
+ pbuilder-satisfydepends-dummy depends on python-sphinx; however:
+  Package python-sphinx is not installed.
+
+Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+Building tag database...
+The following NEW packages will be installed:
+  dh-python{a} docutils-common{a} libjs-jquery{a} libjs-sphinxdoc{a} 
+  libjs-underscore{a} python-all{a} python-docutils{a} python-jinja2{a} 
+  python-markupsafe{a} python-nose{a} python-pkg-resources{a} 
+  python-pygments{a} python-roman{a} python-setuptools{a} python-six{a} 
+  python-sphinx{a} python-support{a} python2.6{a} python2.6-minimal{a} 
+  python3{a} python3-minimal{a} python3.2{a} python3.2-minimal{a} 
+  sgml-base{a} sphinx-common{a} xml-core{a} 
+0 packages upgraded, 26 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/11.8 MB of archives. After unpacking 40.2 MB will be used.
+WARNING: untrusted versions of the following packages will be installed!
+
+Untrusted packages could compromise your system's security.
+You should only proceed with the installation if you are certain that
+this is what you want to do.
+
+  python-six 
+
+Do you want to ignore this warning and proceed anyway?
+To continue, enter "Yes"; to abort, enter "No": Writing extended state information...
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package sgml-base.
+(Reading database ... 16478 files and directories currently installed.)
+Unpacking sgml-base (from .../sgml-base_1.26+nmu4_all.deb) ...
+Selecting previously unselected package python2.6-minimal.
+Unpacking python2.6-minimal (from .../python2.6-minimal_2.6.8-1.1_amd64.deb) ...
+Selecting previously unselected package python2.6.
+Unpacking python2.6 (from .../python2.6_2.6.8-1.1_amd64.deb) ...
+Selecting previously unselected package python3.2-minimal.
+Unpacking python3.2-minimal (from .../python3.2-minimal_3.2.3-7_amd64.deb) ...
+Selecting previously unselected package python3.2.
+Unpacking python3.2 (from .../python3.2_3.2.3-7_amd64.deb) ...
+Selecting previously unselected package python3-minimal.
+Unpacking python3-minimal (from .../python3-minimal_3.2.3-6_all.deb) ...
+Selecting previously unselected package python3.
+Unpacking python3 (from .../python3_3.2.3-6_all.deb) ...
+Selecting previously unselected package dh-python.
+Unpacking dh-python (from .../dh-python_1.20131021-1~bpo70+1_all.deb) ...
+Adding 'diversion of /usr/bin/dh_python3 to /usr/bin/dh_python3.real by dh-python'
+Adding 'diversion of /usr/share/man/man1/dh_python3.1.gz to /usr/share/man/man1/dh_python3.real.1.gz by dh-python'
+Adding 'diversion of /usr/bin/dh_python2 to /usr/bin/dh_python2.real by dh-python'
+Adding 'diversion of /usr/share/man/man1/dh_python2.1.gz to /usr/share/man/man1/dh_python2.real.1.gz by dh-python'
+Selecting previously unselected package xml-core.
+Unpacking xml-core (from .../xml-core_0.13+nmu2_all.deb) ...
+Selecting previously unselected package docutils-common.
+Unpacking docutils-common (from .../docutils-common_0.8.1-8_all.deb) ...
+Selecting previously unselected package libjs-jquery.
+Unpacking libjs-jquery (from .../libjs-jquery_1.7.2+dfsg-1_all.deb) ...
+Selecting previously unselected package libjs-underscore.
+Unpacking libjs-underscore (from .../libjs-underscore_1.1.6-1+deb7u1_all.deb) ...
+Selecting previously unselected package libjs-sphinxdoc.
+Unpacking libjs-sphinxdoc (from .../libjs-sphinxdoc_1.1.3+dfsg-4_all.deb) ...
+Selecting previously unselected package python-all.
+Unpacking python-all (from .../python-all_2.7.3-4+deb7u1_all.deb) ...
+Selecting previously unselected package python-support.
+Unpacking python-support (from .../python-support_1.0.15_all.deb) ...
+Selecting previously unselected package python-roman.
+Unpacking python-roman (from .../python-roman_0.8.1-8_all.deb) ...
+Selecting previously unselected package python-docutils.
+Unpacking python-docutils (from .../python-docutils_0.8.1-8_all.deb) ...
+Selecting previously unselected package python-markupsafe.
+Unpacking python-markupsafe (from .../python-markupsafe_0.15-1_amd64.deb) ...
+Selecting previously unselected package python-jinja2.
+Unpacking python-jinja2 (from .../python-jinja2_2.6-1_amd64.deb) ...
+Selecting previously unselected package python-pkg-resources.
+Unpacking python-pkg-resources (from .../python-pkg-resources_0.6.24-1_all.deb) ...
+Selecting previously unselected package python-nose.
+Unpacking python-nose (from .../python-nose_1.1.2-3_all.deb) ...
+Selecting previously unselected package python-pygments.
+Unpacking python-pygments (from .../python-pygments_1.5+dfsg-1+deb7u1_all.deb) ...
+Selecting previously unselected package python-setuptools.
+Unpacking python-setuptools (from .../python-setuptools_0.6.24-1_all.deb) ...
+Selecting previously unselected package python-six.
+Unpacking python-six (from .../python-six_1.10.0-1_all.deb) ...
+Selecting previously unselected package sphinx-common.
+Unpacking sphinx-common (from .../sphinx-common_1.1.3+dfsg-4_all.deb) ...
+Selecting previously unselected package python-sphinx.
+Unpacking python-sphinx (from .../python-sphinx_1.1.3+dfsg-4_all.deb) ...
+Processing triggers for man-db ...
+Setting up sgml-base (1.26+nmu4) ...
+Setting up python2.6-minimal (2.6.8-1.1) ...
+Setting up python2.6 (2.6.8-1.1) ...
+Setting up python3.2-minimal (3.2.3-7) ...
+Setting up python3.2 (3.2.3-7) ...
+Setting up python3-minimal (3.2.3-6) ...
+Setting up python3 (3.2.3-6) ...
+Setting up dh-python (1.20131021-1~bpo70+1) ...
+Setting up xml-core (0.13+nmu2) ...
+Setting up libjs-jquery (1.7.2+dfsg-1) ...
+Setting up libjs-underscore (1.1.6-1+deb7u1) ...
+Setting up libjs-sphinxdoc (1.1.3+dfsg-4) ...
+Setting up python-all (2.7.3-4+deb7u1) ...
+Setting up python-support (1.0.15) ...
+Setting up python-roman (0.8.1-8) ...
+Setting up python-markupsafe (0.15-1) ...
+Setting up python-jinja2 (2.6-1) ...
+Setting up python-pkg-resources (0.6.24-1) ...
+Setting up python-nose (1.1.2-3) ...
+Setting up python-pygments (1.5+dfsg-1+deb7u1) ...
+Setting up python-setuptools (0.6.24-1) ...
+Setting up python-six (1.10.0-1) ...
+Setting up sphinx-common (1.1.3+dfsg-4) ...
+Processing triggers for sgml-base ...
+Setting up docutils-common (0.8.1-8) ...
+Processing triggers for sgml-base ...
+Setting up python-docutils (0.8.1-8) ...
+update-alternatives: using /usr/share/docutils/scripts/python2/rst-buildhtml to provide /usr/bin/rst-buildhtml (rst-buildhtml) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2html to provide /usr/bin/rst2html (rst2html) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2latex to provide /usr/bin/rst2latex (rst2latex) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2man to provide /usr/bin/rst2man (rst2man) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2odt to provide /usr/bin/rst2odt (rst2odt) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2odt_prepstyles to provide /usr/bin/rst2odt_prepstyles (rst2odt_prepstyles) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2pseudoxml to provide /usr/bin/rst2pseudoxml (rst2pseudoxml) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2s5 to provide /usr/bin/rst2s5 (rst2s5) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2xetex to provide /usr/bin/rst2xetex (rst2xetex) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rst2xml to provide /usr/bin/rst2xml (rst2xml) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python2/rstpep2html to provide /usr/bin/rstpep2html (rstpep2html) in auto mode
+Setting up python-sphinx (1.1.3+dfsg-4) ...
+Processing triggers for python-support ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+Building tag database...
+ -> Finished parsing the build-deps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  fakeroot
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/108 kB of archives.
+After this operation, 325 kB of additional disk space will be used.
+Selecting previously unselected package fakeroot.
+(Reading database ... 19673 files and directories currently installed.)
+Unpacking fakeroot (from .../fakeroot_1.18.4-2_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up fakeroot (1.18.4-2) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+I: Running env PATH=/usr/sbin:/usr/bin:/sbin:/bin /usr/bin/dpkg-buildpackage -rfakeroot -us -uc ${DEBBUILDOPTS}
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package paste
+dpkg-buildpackage: source version 2.0.3+dfsg-4
+dpkg-buildpackage: source changed by Ondřej Nový <onovy@debian.org>
+ dpkg-source --before-build Paste-2.0.3
+dpkg-buildpackage: host architecture amd64
+dpkg-source: info: using options from Paste-2.0.3/debian/source/options: --extend-diff-ignore=^[^/]+\.egg-info/
+dpkg-source: info: applying 0001-Use-correct-variable-when-building-message-for-excep.patch
+dpkg-source: info: applying 0002-Skip-test-with-network-access.patch
+ fakeroot debian/rules clean
+dh clean --with python2,sphinxdoc --buildsystem=pybuild
+   dh_testdir -O--buildsystem=pybuild
+   dh_auto_clean -O--buildsystem=pybuild
+running clean
+removing '/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build' (and everything under it)
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+   dh_clean -O--buildsystem=pybuild
+ dpkg-source -b Paste-2.0.3
+dpkg-source: info: using options from Paste-2.0.3/debian/source/options: --extend-diff-ignore=^[^/]+\.egg-info/
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building paste using existing ./paste_2.0.3+dfsg.orig.tar.xz
+dpkg-source: warning: ignoring deletion of directory Paste.egg-info
+dpkg-source: warning: ignoring deletion of file paste/httpserver.py.orig
+dpkg-source: warning: ignoring deletion of file paste/urlmap.py.orig
+dpkg-source: warning: ignoring deletion of file paste/util/template.py.orig
+dpkg-source: info: building paste in paste_2.0.3+dfsg-4.debian.tar.gz
+dpkg-source: warning: missing information for output field Standards-Version
+dpkg-source: info: building paste in paste_2.0.3+dfsg-4.dsc
+ debian/rules build
+dh build --with python2,sphinxdoc --buildsystem=pybuild
+   dh_testdir -O--buildsystem=pybuild
+   dh_auto_configure -O--buildsystem=pybuild
+running config
+   dh_auto_build -O--buildsystem=pybuild
+running build
+running build_py
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/response.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/cascade.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/httpexceptions.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/fixture.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/urlmap.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/request.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/fileapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/config.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/registry.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/session.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/translogger.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/pony.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/proxy.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/recursive.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/modpython.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/progress.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/httpserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/transaction.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/wsgilib.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/wsgiwrappers.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/errordocument.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/httpheaders.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/url.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/lint.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/reloader.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/flup_session.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/gzipper.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/cgitb_catcher.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/urlparser.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+copying paste/cgiapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/cowbell
+copying paste/cowbell/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/cowbell
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/debugapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/watchthreads.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/wdg_validate.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/profile.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/prints.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/testserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/fsdiff.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+copying paste/debug/doctest_webapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/debug
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/serial_number_generator.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/errormiddleware.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/formatter.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/collector.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+copying paste/exceptions/reporter.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/exceptions
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception
+copying paste/evalexception/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception
+copying paste/evalexception/middleware.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception
+copying paste/evalexception/evalcontext.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/grantip.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/basic.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/multi.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/digest.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/auth_tkt.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/form.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/cas.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/open_id.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+copying paste/auth/cookie.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/auth
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/converters.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/quoting.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/intset.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/killthread.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/ip4.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/classinstance.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/PySourceColor.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/mimeparse.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/findpackage.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/multidict.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/threadedprint.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/template.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/threadinglocal.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/scgiserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/classinit.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/datetimeutil.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/looper.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/dateinterval.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/filemixin.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/finddata.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/util/import_string.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+copying paste/cowbell/bell-ascending.png -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/cowbell
+copying paste/cowbell/bell-descending.png -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/cowbell
+creating /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception/media
+copying paste/evalexception/media/minus.jpg -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception/media
+copying paste/evalexception/media/debug.js -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception/media
+copying paste/evalexception/media/plus.jpg -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/evalexception/media
+copying paste/util/template.py.2015-04-30-123224 -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/.pybuild/pythonX.Y_2.7/build/paste/util
+ fakeroot debian/rules binary
+dh binary --with python2,sphinxdoc --buildsystem=pybuild
+   dh_testroot -O--buildsystem=pybuild
+   dh_prep -O--buildsystem=pybuild
+   dh_auto_install -O--buildsystem=pybuild
+running install
+running build
+running build_py
+running install_lib
+copying paste/response.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/cascade.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/httpexceptions.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+Skipping installation of /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/__init__.py (namespace package)
+copying paste/fixture.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/urlmap.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/request.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/fileapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/config.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/registry.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/session.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/translogger.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/pony.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/proxy.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/recursive.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/modpython.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/progress.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/httpserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/transaction.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/wsgilib.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/wsgiwrappers.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/errordocument.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/httpheaders.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/url.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/lint.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/reloader.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/flup_session.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/gzipper.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/cgitb_catcher.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/urlparser.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/cgiapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste
+copying paste/cowbell/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cowbell
+copying paste/cowbell/bell-ascending.png -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cowbell
+copying paste/cowbell/bell-descending.png -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cowbell
+copying paste/debug/debugapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/watchthreads.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/wdg_validate.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/profile.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/prints.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/testserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/fsdiff.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/debug/doctest_webapp.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug
+copying paste/exceptions/serial_number_generator.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/exceptions/errormiddleware.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/exceptions/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/exceptions/formatter.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/exceptions/collector.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/exceptions/reporter.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions
+copying paste/evalexception/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception
+copying paste/evalexception/middleware.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception
+copying paste/evalexception/evalcontext.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception
+copying paste/evalexception/media/minus.jpg -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/media
+copying paste/evalexception/media/debug.js -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/media
+copying paste/evalexception/media/plus.jpg -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/media
+copying paste/auth/grantip.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/basic.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/multi.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/digest.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/auth_tkt.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/form.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/cas.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/open_id.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/auth/cookie.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth
+copying paste/util/converters.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/quoting.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/__init__.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/intset.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/killthread.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/ip4.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/classinstance.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/PySourceColor.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/mimeparse.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/findpackage.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/multidict.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/threadedprint.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/template.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/threadinglocal.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/scgiserver.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/template.py.2015-04-30-123224 -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/classinit.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/datetimeutil.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/looper.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/dateinterval.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/filemixin.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/finddata.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+copying paste/util/import_string.py -> /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/response.py to response.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cascade.py to cascade.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/httpexceptions.py to httpexceptions.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/fixture.py to fixture.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/urlmap.py to urlmap.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/request.py to request.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/fileapp.py to fileapp.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/config.py to config.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/registry.py to registry.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/session.py to session.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/translogger.py to translogger.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/pony.py to pony.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/proxy.py to proxy.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/recursive.py to recursive.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/modpython.py to modpython.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/progress.py to progress.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/httpserver.py to httpserver.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/transaction.py to transaction.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/wsgilib.py to wsgilib.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/wsgiwrappers.py to wsgiwrappers.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/errordocument.py to errordocument.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/httpheaders.py to httpheaders.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/url.py to url.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/lint.py to lint.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/reloader.py to reloader.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/flup_session.py to flup_session.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/gzipper.py to gzipper.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cgitb_catcher.py to cgitb_catcher.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/urlparser.py to urlparser.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cgiapp.py to cgiapp.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/cowbell/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/debugapp.py to debugapp.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/watchthreads.py to watchthreads.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/wdg_validate.py to wdg_validate.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/profile.py to profile.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/prints.py to prints.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/testserver.py to testserver.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/fsdiff.py to fsdiff.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/debug/doctest_webapp.py to doctest_webapp.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/serial_number_generator.py to serial_number_generator.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/errormiddleware.py to errormiddleware.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/formatter.py to formatter.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/collector.py to collector.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/exceptions/reporter.py to reporter.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/middleware.py to middleware.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/evalexception/evalcontext.py to evalcontext.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/grantip.py to grantip.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/basic.py to basic.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/multi.py to multi.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/digest.py to digest.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/auth_tkt.py to auth_tkt.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/form.py to form.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/cas.py to cas.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/open_id.py to open_id.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/auth/cookie.py to cookie.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/converters.py to converters.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/quoting.py to quoting.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/__init__.py to __init__.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/intset.py to intset.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/killthread.py to killthread.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/ip4.py to ip4.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/classinstance.py to classinstance.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/PySourceColor.py to PySourceColor.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/mimeparse.py to mimeparse.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/findpackage.py to findpackage.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/multidict.py to multidict.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/threadedprint.py to threadedprint.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/template.py to template.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/threadinglocal.py to threadinglocal.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/scgiserver.py to scgiserver.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/classinit.py to classinit.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/datetimeutil.py to datetimeutil.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/looper.py to looper.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/dateinterval.py to dateinterval.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/filemixin.py to filemixin.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/finddata.py to finddata.pyc
+byte-compiling /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/paste/util/import_string.py to import_string.pyc
+running install_egg_info
+running egg_info
+creating Paste.egg-info
+writing requirements to Paste.egg-info/requires.txt
+writing Paste.egg-info/PKG-INFO
+writing namespace_packages to Paste.egg-info/namespace_packages.txt
+writing top-level names to Paste.egg-info/top_level.txt
+writing dependency_links to Paste.egg-info/dependency_links.txt
+writing entry points to Paste.egg-info/entry_points.txt
+writing manifest file 'Paste.egg-info/SOURCES.txt'
+reading manifest file 'Paste.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*' found under directory 'docs/_build/_sources'
+warning: no files found matching '*.html' under directory 'docs/_build'
+writing manifest file 'Paste.egg-info/SOURCES.txt'
+Copying Paste.egg-info to /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/Paste-2.0.3.egg-info
+Installing /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/Paste-2.0.3-nspkg.pth
+running install_scripts
+rm: cannot remove `/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste/usr/lib/python2.7/dist-packages/profile.log.tmp': No such file or directory
+   dh_installdocs -O--buildsystem=pybuild
+   debian/rules override_dh_sphinxdoc
+make[1]: Entering directory `/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3'
+PYTHONPATH=. sphinx-build -bhtml docs/ /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/debian/python-paste-doc/usr/share/doc/python-paste-doc/html
+Making output directory...
+Running Sphinx v1.1.3
+loading pickled environment... not yet created
+building [html]: targets for 62 source files that are out of date
+updating environment: 62 added, 0 changed, 0 removed
+reading sources... [  1%] DeveloperGuidelines
+reading sources... [  3%] StyleGuide
+reading sources... [  4%] community/index
+reading sources... [  6%] community/mailing-list
+reading sources... [  8%] community/repository
+reading sources... [  9%] developer-features
+reading sources... [ 11%] do-it-yourself-framework
+reading sources... [ 12%] download/index
+reading sources... [ 14%] future
+reading sources... [ 16%] include/contact
+reading sources... [ 17%] include/reference_header
+reading sources... [ 19%] index
+reading sources... [ 20%] license
+reading sources... [ 22%] modules/auth.auth_tkt
+reading sources... [ 24%] modules/auth.basic
+reading sources... [ 25%] modules/auth.cas
+reading sources... [ 27%] modules/auth.cookie
+reading sources... [ 29%] modules/auth.digest
+reading sources... [ 30%] modules/auth.form
+reading sources... [ 32%] modules/auth.grantip
+reading sources... [ 33%] modules/auth.multi
+reading sources... [ 35%] modules/cascade
+reading sources... [ 37%] modules/cgiapp
+reading sources... [ 38%] modules/cgitb_catcher
+reading sources... [ 40%] modules/debug.debugapp
+reading sources... [ 41%] modules/debug.fsdiff
+reading sources... [ 43%] modules/debug.prints
+reading sources... [ 45%] modules/debug.profile
+reading sources... [ 46%] modules/debug.watchthreads
+reading sources... [ 48%] modules/debug.wdg_validate
+reading sources... [ 50%] modules/errordocument
+reading sources... [ 51%] modules/evalexception
+reading sources... [ 53%] modules/exceptions
+reading sources... [ 54%] modules/fileapp
+reading sources... [ 56%] modules/fixture
+reading sources... [ 58%] modules/gzipper
+reading sources... [ 59%] modules/httpexceptions
+reading sources... [ 61%] modules/httpheaders
+reading sources... [ 62%] modules/httpserver
+reading sources... [ 64%] modules/lint
+reading sources... [ 66%] modules/pony
+reading sources... [ 67%] modules/progress
+reading sources... [ 69%] modules/proxy
+reading sources... [ 70%] modules/recursive
+reading sources... [ 72%] modules/registry
+reading sources... [ 74%] modules/reloader
+reading sources... [ 75%] modules/request
+reading sources... [ 77%] modules/response
+reading sources... [ 79%] modules/session
+reading sources... [ 80%] modules/transaction
+reading sources... [ 82%] modules/translogger
+reading sources... [ 83%] modules/url
+reading sources... [ 85%] modules/urlmap
+reading sources... [ 87%] modules/urlparser
+reading sources... [ 88%] modules/util.import_string
+reading sources... [ 90%] modules/util.multidict
+reading sources... [ 91%] modules/wsgilib
+reading sources... [ 93%] modules/wsgiwrappers
+reading sources... [ 95%] news
+reading sources... [ 96%] paste-httpserver-threadpool
+reading sources... [ 98%] testing-applications
+reading sources... [100%] url-parsing-with-wsgi
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/include/contact.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/include/reference_header.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.auth_tkt.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.basic.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.cas.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.cookie.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.digest.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.form.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.grantip.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/auth.multi.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/cascade.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/cgiapp.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/cgitb_catcher.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.debugapp.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.fsdiff.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.prints.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.profile.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.watchthreads.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/debug.wdg_validate.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/errordocument.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/evalexception.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/exceptions.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/fileapp.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/fixture.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/gzipper.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/httpexceptions.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/httpheaders.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/httpserver.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/lint.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/pony.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/progress.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/proxy.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/recursive.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/registry.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/reloader.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/request.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/response.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/session.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/transaction.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/translogger.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/url.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/urlmap.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/urlparser.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/util.import_string.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/util.multidict.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/wsgilib.txt:: WARNING: document isn't included in any toctree
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/modules/wsgiwrappers.txt:: WARNING: document isn't included in any toctree
+done
+preparing documents... done
+writing output... [  1%] DeveloperGuidelines
+writing output... [  3%] StyleGuide
+writing output... [  4%] community/index
+writing output... [  6%] community/mailing-list
+writing output... [  8%] community/repository
+writing output... [  9%] developer-features
+writing output... [ 11%] do-it-yourself-framework
+writing output... [ 12%] download/index
+writing output... [ 14%] future
+writing output... [ 16%] include/contact
+writing output... [ 17%] include/reference_header
+writing output... [ 19%] index
+writing output... [ 20%] license
+writing output... [ 22%] modules/auth.auth_tkt
+writing output... [ 24%] modules/auth.basic
+writing output... [ 25%] modules/auth.cas
+writing output... [ 27%] modules/auth.cookie
+writing output... [ 29%] modules/auth.digest
+writing output... [ 30%] modules/auth.form
+writing output... [ 32%] modules/auth.grantip
+writing output... [ 33%] modules/auth.multi
+writing output... [ 35%] modules/cascade
+writing output... [ 37%] modules/cgiapp
+writing output... [ 38%] modules/cgitb_catcher
+writing output... [ 40%] modules/debug.debugapp
+writing output... [ 41%] modules/debug.fsdiff
+writing output... [ 43%] modules/debug.prints
+writing output... [ 45%] modules/debug.profile
+writing output... [ 46%] modules/debug.watchthreads
+writing output... [ 48%] modules/debug.wdg_validate
+writing output... [ 50%] modules/errordocument
+writing output... [ 51%] modules/evalexception
+writing output... [ 53%] modules/exceptions
+writing output... [ 54%] modules/fileapp
+writing output... [ 56%] modules/fixture
+writing output... [ 58%] modules/gzipper
+writing output... [ 59%] modules/httpexceptions
+writing output... [ 61%] modules/httpheaders
+writing output... [ 62%] modules/httpserver
+writing output... [ 64%] modules/lint
+writing output... [ 66%] modules/pony
+writing output... [ 67%] modules/progress
+writing output... [ 69%] modules/proxy
+writing output... [ 70%] modules/recursive
+writing output... [ 72%] modules/registry
+writing output... [ 74%] modules/reloader
+writing output... [ 75%] modules/request
+writing output... [ 77%] modules/response
+writing output... [ 79%] modules/session
+writing output... [ 80%] modules/transaction
+writing output... [ 82%] modules/translogger
+writing output... [ 83%] modules/url
+writing output... [ 85%] modules/urlmap
+writing output... [ 87%] modules/urlparser
+writing output... [ 88%] modules/util.import_string
+writing output... [ 90%] modules/util.multidict
+writing output... [ 91%] modules/wsgilib
+writing output... [ 93%] modules/wsgiwrappers
+writing output... [ 95%] news
+writing output... [ 96%] paste-httpserver-threadpool
+writing output... [ 98%] testing-applications
+writing output... [100%] url-parsing-with-wsgi
+
+/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3/docs/index.txt:6: WARNING: toctree contains reference to document 'license' that doesn't have a title: no link will be generated
+writing additional files... genindex py-modindex search
+copying static files... done
+dumping search index... done
+dumping object inventory... done
+build succeeded, 48 warnings.
+dh_sphinxdoc -O--buildsystem=pybuild
+make[1]: Leaving directory `/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3'
+   debian/rules override_dh_installchangelogs
+make[1]: Entering directory `/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3'
+dh_installchangelogs -i docs/news.txt
+make[1]: Leaving directory `/home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15/Paste-2.0.3'
+   dh_python2 -O--buildsystem=pybuild
+   dh_lintian -O--buildsystem=pybuild
+   dh_perl -O--buildsystem=pybuild
+   dh_link -O--buildsystem=pybuild
+   dh_compress -O--buildsystem=pybuild
+   dh_fixperms -O--buildsystem=pybuild
+   dh_installdeb -O--buildsystem=pybuild
+   dh_gencontrol -O--buildsystem=pybuild
+dpkg-gencontrol: warning: File::FcntlLock not available; using flock which is not NFS-safe
+dpkg-gencontrol: warning: package python-paste: unused substitution variable ${python:Versions}
+dpkg-gencontrol: warning: package python-paste: unused substitution variable ${python:Provides}
+dpkg-gencontrol: warning: File::FcntlLock not available; using flock which is not NFS-safe
+   dh_md5sums -O--buildsystem=pybuild
+   dh_builddeb -O--buildsystem=pybuild
+dpkg-deb: building package `python-paste' in `../python-paste_2.0.3+dfsg-4_all.deb'.
+dpkg-deb: building package `python-paste-doc' in `../python-paste-doc_2.0.3+dfsg-4_all.deb'.
+ dpkg-genchanges  >../paste_2.0.3+dfsg-4_amd64.changes
+dpkg-genchanges: not including original source code in upload
+ dpkg-source --after-build Paste-2.0.3
+dpkg-source: info: using options from Paste-2.0.3/debian/source/options: --extend-diff-ignore=^[^/]+\.egg-info/
+dpkg-source: info: unapplying 0002-Skip-test-with-network-access.patch
+dpkg-source: info: unapplying 0001-Use-correct-variable-when-building-message-for-excep.patch
+dpkg-buildpackage: binary and diff upload (original source NOT included)
+ls: cannot access /build/*.changes: No such file or directory
+I: Copying back the cached apt archive contents
+I: unmounting /var/cache/pbuilder/tmprepo/ filesystem
+I: unmounting /home/user/BUILD/PROJECTS/GIS/OGCServer/DEPENDS-ASTRA15/python-paste/astra15 filesystem
+I: unmounting dev/pts filesystem
+I: unmounting run/shm filesystem
+I: unmounting proc filesystem
+I: cleaning the build env 
+I: removing directory /var/cache/pbuilder/build/18008 and its subdirectories

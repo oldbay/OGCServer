@@ -1,0 +1,49 @@
+Source: pastedeploy
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper,
+               dh-python,
+               python-all,
+               python-nose,
+               python-setuptools,
+Standards-Version: 3.9.8
+Homepage: http://pythonpaste.org/deploy/
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/pastedeploy.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/pastedeploy.git
+X-Python-Version: >= 2.7
+
+Package: python-pastedeploy
+Architecture: all
+Depends: python-paste,
+         python-pastedeploy-tpl (= ${binary:Version}),
+         python-pkg-resources,
+         ${misc:Depends},
+         ${python:Depends},
+Recommends: python-pastescript,
+Enhances: python-paste,
+Description: load, configure, and compose WSGI applications and servers - Python 2.x
+ Paste Deployment is a system for finding and configuring WSGI applications and
+ servers. For WSGI application consumers it provides a single, simple function
+ (loadapp) for loading a WSGI application from a configuration file or a Python
+ Egg. For WSGI application providers it only asks for a single, simple entry
+ point to your application, so that application users don't need to be exposed
+ to the implementation details of your application.
+ .
+ This package contains the Python 2.x module.
+
+Package: python-pastedeploy-tpl
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: python-pastedeploy (<< 1.5.0-4),
+Replaces: python-pastedeploy (<< 1.5.0-4),
+Description: load, configure, and compose WSGI applications and servers - templates
+ Paste Deployment is a system for finding and configuring WSGI applications and
+ servers. For WSGI application consumers it provides a single, simple function
+ (loadapp) for loading a WSGI application from a configuration file or a Python
+ Egg. For WSGI application providers it only asks for a single, simple entry
+ point to your application, so that application users don't need to be exposed
+ to the implementation details of your application.
+ .
+ This package contains the Paste Deploy's paster template.

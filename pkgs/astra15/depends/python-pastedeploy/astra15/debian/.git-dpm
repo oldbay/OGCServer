@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+0b19d6779969b2d535d7b85182d8102c3e6c577a
+0b19d6779969b2d535d7b85182d8102c3e6c577a
+6c27b1683897067404f304c8540363b4ce7a3f0e
+6c27b1683897067404f304c8540363b4ce7a3f0e
+pastedeploy_1.5.2.orig.tar.gz
+8f7676287c880df164d5659a7da28cf6ee9b039e
+24006
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

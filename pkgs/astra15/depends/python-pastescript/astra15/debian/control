@@ -1,0 +1,32 @@
+Source: pastescript
+Section: python
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper
+Build-Depends-Indep: python-all,
+                     python-setuptools,
+                     python-sphinx,
+                     python-paste,
+                     python-pastedeploy
+Standards-Version: 3.9.3
+Homepage: http://pythonpaste.org/script/
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/pastescript/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/pastescript/trunk/
+X-Python-Version: >= 2.7
+
+Package: python-pastescript
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends},
+         python-paste,
+         python-pastedeploy,
+         python-setuptools
+Suggests: python-flup (>= 0.5-1), python-cherrypy, python-cheetah (>= 1.0-1.1), ${sphinxdoc:Depends}
+Description: serving web applications, creating file layouts for Python packages
+ Paster is pluggable command-line frontend,
+ including commands to setup package file layouts
+ .
+ Built-in features:
+  * Creating file layouts for packages.
+    For instance a setuptools-ready file layout.
+  * Serving up web applications, with configuration based on paste.deploy

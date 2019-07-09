@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 19 Jan 2017 16:38:16 +0100
+Source: python-webob
+Binary: python-webob
+Architecture: source all
+Version: 1:1.6.2-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Changed-By: Ondřej Nový <onovy@debian.org>
+Description: 
+ python-webob - Python module providing WSGI request and response objects (Python
+Closes: 849591 851649
+Changes: 
+ python-webob (1:1.6.2-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Rollback to 1.6.2 upstream release (Closes: #849591, #851649)
+     - pytest replaced with nose
+Checksums-Sha1: 
+ 0530c2e080bd8c402a94c597649f54f3c5472142 1349 python-webob_1.6.2-2.dsc
+ 8cbed248ad6d472804731d65e254cf498027a07e 163188 python-webob_1.6.2.orig.tar.xz
+ 0a057473aca167052f274dd25b40ea09e96209b7 5438 python-webob_1.6.2-2.debian.tar.gz
+ 3fca26faae721ee04e82099fa1d1442bfbd24cd1 238200 python-webob_1.6.2-2_all.deb
+Checksums-Sha256: 
+ 6102a6ea1c3c75e37b9c9877db4257967e4ec804d81043ce7a1b4314e99acc39 1349 python-webob_1.6.2-2.dsc
+ 477a262b1da50ca870ece3cdfe9a5ca2ca688e80287c170e0c29d6d00824249a 163188 python-webob_1.6.2.orig.tar.xz
+ fc57037c7e18fe0b4fee1f6eba5e5e15c75a363db7615a7c6b7741e83a1bff02 5438 python-webob_1.6.2-2.debian.tar.gz
+ a84c25aba5c1668cf29bbffb3a68444d900477e06a2ede0a60ecc71e419dbed3 238200 python-webob_1.6.2-2_all.deb
+Files: 
+ 76937c138c61f190c79f5d31ffc7442e 1349 python optional python-webob_1.6.2-2.dsc
+ 42b5814ac3530b196ad943365a58ccb1 163188 python optional python-webob_1.6.2.orig.tar.xz
+ 2deac4f0414f3a69f441985f62ec6d56 5438 python optional python-webob_1.6.2-2.debian.tar.gz
+ beded4667faa7fe3dee2396d23a5aa59 238200 python optional python-webob_1.6.2-2_all.deb

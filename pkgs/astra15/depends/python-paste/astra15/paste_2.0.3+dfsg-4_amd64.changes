@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 22 Sep 2016 22:54:07 +0200
+Source: paste
+Binary: python-paste python-paste-doc
+Architecture: source all
+Version: 2.0.3+dfsg-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Changed-By: Ondřej Nový <onovy@debian.org>
+Description: 
+ python-paste - tools for using a Web Server Gateway Interface stack - Python 2.x
+ python-paste-doc - tools for using a Web Server Gateway Interface stack - documentat
+Closes: 831340 831341
+Changes: 
+ paste (2.0.3+dfsg-4) unstable; urgency=medium
+ .
+   * Suggest httpd-wsgi virtual package instead of libapache2-mod-wsgi
+     (Closes: #831340, #831341)
+Checksums-Sha1: 
+ 53aa0d48441832f49ff1db0994b26253c6aa6f7c 1198 paste_2.0.3+dfsg-4.dsc
+ 4edc002438f3f4240193c3e0913b49bb3a5f9c94 8839 paste_2.0.3+dfsg-4.debian.tar.gz
+ b969e94a6cd3b6feaa1d34f28823c1d4cd6efde5 525268 python-paste_2.0.3+dfsg-4_all.deb
+ f4cbeb9a18385495b7376d1d8285dc7e01b759ed 239938 python-paste-doc_2.0.3+dfsg-4_all.deb
+Checksums-Sha256: 
+ 55acbf7177e858c07588000aa3e36bc8e57f952f551cf53f0548bf642a6d0baa 1198 paste_2.0.3+dfsg-4.dsc
+ 1dc41d381beeb1b0b4194a85fafddc7bc4b3e86367fc7ea0cb61b03ee1e94084 8839 paste_2.0.3+dfsg-4.debian.tar.gz
+ 26e0feb544234cddaa7becfc3fb19bbdb477f4ee20ac06fde7e8fe0374cd999f 525268 python-paste_2.0.3+dfsg-4_all.deb
+ d271a96cb8bca5f38c8c69d2e1bb337e866aaf3d791781cc5cdc79fe3e8d6974 239938 python-paste-doc_2.0.3+dfsg-4_all.deb
+Files: 
+ a179306b90e58f5a6b84cee807e8658d 1198 python optional paste_2.0.3+dfsg-4.dsc
+ df2d96a932c4bb5d99952f5feafd465a 8839 python optional paste_2.0.3+dfsg-4.debian.tar.gz
+ 9ca2c6f5978e461d7d20e6ac8a381712 525268 python optional python-paste_2.0.3+dfsg-4_all.deb
+ 6606dc365441dd685606c0c10477b799 239938 doc optional python-paste-doc_2.0.3+dfsg-4_all.deb

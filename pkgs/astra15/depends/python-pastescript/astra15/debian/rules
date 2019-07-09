@@ -1,0 +1,77 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+LAST_CHANGE=$(shell dpkg-parsechangelog -S Date)
+BUILD_DATE=$(shell LC_ALL=C date -u "+%B %d, %Y" -d "$(LAST_CHANGE)")
+
+SPHINXOPTS := -D today="$(BUILD_DATE)"
+SPHINXOPTS += -D html_last_updated_fmt="$(BUILD_DATE)"
+
+PYVERS=$(shell pyversions -vr)
+PKGDIR=$(CURDIR)/debian/python-pastescript
+include /usr/share/python/python.mk
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -rf dist build
+	find . -name '*\.py[co]' -delete
+	dh_clean build-docs $(PYVERS:%=install-python%) install-stamp PasteScript.egg-info/*
+
+build: build-docs
+build-indep: build-docs
+build-arch:
+
+build-docs:
+	dh_testdir
+	dh_installdirs
+	PYTHONPATH=. sphinx-build -N -q -E -b html $(SPHINXOPTS) docs/ $(PKGDIR)/usr/share/doc/python-pastescript/docs/
+	touch $@
+
+install: build install-stamp
+
+install-stamp: $(PYVERS:%=install-python%)
+	dh_installdirs
+	cp -r $(CURDIR)/paste/script/paster-templates/* $(PKGDIR)/usr/share/paster_templates/
+	install -m 644 debian/paster.bash_completion $(PKGDIR)/etc/bash_completion.d/paster
+	dh_link usr/share/doc/python-pastescript/docs /usr/share/doc/python-paste/docs/script
+	# it's a template only, not an extra license file
+	echo "python-pastescript: extra-license-file usr/share/paster_templates/basic_package/docs/license.txt_tmpl" \
+		>> $(PKGDIR)/usr/share/lintian/overrides/python-pastescript
+	echo "python-pastescript: extra-license-file usr/share/doc/python-pastescript/docs/_sources/license.txt" \
+		>> $(PKGDIR)/usr/share/lintian/overrides/python-pastescript
+	touch $@
+
+install-python%:
+	python$* setup.py install --root $(PKGDIR) \
+		--single-version-externally-managed $(py_setup_install_args)
+	# pth file is not needed since all paste* packages are installed in the same directory
+	rm -f $(PKGDIR)$(call py_libdir,$*)/PasteScript-*.pth
+	rm -f $(PKGDIR)$(call py_libdir,$*)/PasteScript-*/namespace_packages.txt
+	rm -rf $(PKGDIR)$(call py_libdir,$*)/paste/script/paster-templates
+	# create /usr/bin/pasterX.Y symlink
+	install -m 755 $(CURDIR)/debian/paster.py $(PKGDIR)/usr/bin/paster$*
+	sed -i -e '1s,usr/bin/.*,usr/bin/python$*,' $(PKGDIR)/usr/bin/paster$*
+	dh_link /usr/share/man/man1/paster.1.gz /usr/share/man/man1/paster$*.1.gz
+
+binary-indep: build install
+	dh_testdir -i
+	dh_testroot -i
+	dh_installchangelogs -i docs/news.txt
+	dh_installdocs -i
+	dh_sphinxdoc -i
+	dh_installman -i
+	install -m 755 $(CURDIR)/debian/paster.py $(PKGDIR)/usr/bin/paster
+	dh_python2 -i
+	dh_compress -i -X.py -X.js
+	dh_fixperms -i
+	dh_installdeb -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+
+binary-arch:
+
+binary: binary-indep binary-arch
+
+.PHONY: build clean binary-indep binary-arch binary install

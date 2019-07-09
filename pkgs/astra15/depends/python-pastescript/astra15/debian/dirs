@@ -1,0 +1,5 @@
+/usr/bin
+/usr/share/paster_templates
+/usr/share/doc/python-pastescript/docs
+/usr/share/lintian/overrides
+/etc/bash_completion.d/
