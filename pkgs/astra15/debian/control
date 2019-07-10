@@ -7,7 +7,7 @@ Build-Depends: debhelper,
                python-all,
                python-setuptools,
                python-mapnik,
-               python-pil,
+               python-imaging,
                python-pastescript,
                python-webob
 Standards-Version: 3.9.5.0

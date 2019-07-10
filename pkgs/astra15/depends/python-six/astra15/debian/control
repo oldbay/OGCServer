@@ -1,0 +1,18 @@
+Source: six
+Section: vega/python
+Priority: optional
+Maintainer: Baev Aleksandr <old_bay@mail.ru>
+Build-Depends: debhelper (>= 7.0.50~),
+               dh-python,
+               python-all (>= 2.6.5-13~),
+               python-setuptools
+Standards-Version: 3.9.5.0
+Homepage: http://spb.vega.su
+X-Python-Version: >= 2.5
+
+Package: python-six
+Architecture: all
+Section: vega/python
+Depends: ${misc:Depends},
+         ${python:Depends}
+Description: Six in Python 2.
